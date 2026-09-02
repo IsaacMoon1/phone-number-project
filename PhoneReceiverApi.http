@@ -1,0 +1,10 @@
+@PhoneReceiverApi_HostAddress = http://localhost:5101
+
+POST {{PhoneReceiverApi_HostAddress}}/api/phone
+Content-Type: application/json
+
+{
+  "phoneNumber": "+447901282605"
+}
+
+###
